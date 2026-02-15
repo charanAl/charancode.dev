@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Charan Doc</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-areas: "header header" "sidebar content" "footer footer";
+            grid-template-rows: auto 1fr auto;
+            grid-template-columns: 200px 1fr;
+            min-height: 100vh;
+        }
+        .header{
+            grid-area: header;
+            background: rgb(3, 113, 3);
+            color: white;
+            padding: 15px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            justify-content: space-between;
+            align-items: center;
+            
+
+        }
+        .sidebar{
+            grid-area: sidebar;
+            background-color: lightblue;
+            color: rgb(0, 8, 14);
+            padding: 20px;
+        }
+        .content{
+            grid-area: content;
+            padding: 20px;
+            background: lightcyan;
+        }
+        .footer{
+            grid-area: footer;
+            background: rgb(231, 238, 39);
+            padding: 2px;
+            text-align: center;
+        }
+        
+        
+    </style>
+
+</head>
+<body>
+    <div class="container">
+    <div class="header">
+        <div> Charan InfoTech</div>
+        <div>Cherry</div>
+    </div>
+
+    <div class="sidebar">AI, Python, Ml, Dl, DDs, DBMS , Django, Java, Flask, Cybersecurity, ComputerNetworking, OperatingSystem </div>
+
+    <div class="content">
+        <h2>Welcome to Charan InfoTech.🖥️</h2>
+        <p>Get upto date in latest Technology with us.like C,C++,Python,Java,Ai,Ml,Dl,DataScience and all the fullstack developer courses.</p>
+    </div>
+
+    <div class="footer">Charan InfoTech (p) Ltd. ☮️ 2025 All rights Reserved</div>
+    </div>
+</body>
+</html>
